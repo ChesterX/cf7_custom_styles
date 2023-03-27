@@ -1,22 +1,22 @@
-.cfs_custom_form{
-	width: 100%;
+.cfs_custom_form {
+    width: 100%;
     max-width: 650px;
     margin: 70px auto 0 auto;
 }
 
-.cfs_custom_form .cfs_form_group{
-	margin-bottom: 30px;
+.cfs_custom_form .cfs_form_group {
+    margin-bottom: 30px;
 }
 
-.cfs_form_group.cfs_two{
-	display: flex;
+.cfs_form_group.cfs_two {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-	align-items: flex-end;
+    align-items: flex-start;
 }
 
-.cfs_form_group.cfs_two > div{
-	width: calc(50% - 10px);
+.cfs_form_group.cfs_two > div {
+    width: calc(50% - 10px);
 }
 
 .cfs_custom_form .wpcf7-select {
@@ -26,8 +26,8 @@
 }
 
 .cfs_custom_form label,
-.cfs_custom_form use_label_element{
-	font-size: 16px;
+.cfs_custom_form use_label_element {
+    font-size: 16px;
     color: #2c2c2c;
 }
 
@@ -47,20 +47,20 @@
     width: 100%;
     padding: 12px;
     margin-top: 5px;
-	background:#fff;
+    background: #fff;
 }
 
-.cfs_custom_form .wpcf7-list-item{
-	margin-left:0;
-	margin-right: 15px;
+.cfs_custom_form .wpcf7-list-item {
+    margin-left: 0;
+    margin-right: 15px;
 }
 
-.cfs_custom_form textarea{
-	max-height: 150px;
+.cfs_custom_form textarea {
+    max-height: 150px;
 }
 
 .wpcf7-form .cfs_custom_form input[type="submit"] {
-	width: 100%;
+    width: 100%;
     font-size: 16px;
     max-width: 300px;
     margin-bottom: 70px;
@@ -71,19 +71,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-	padding:0;
+    padding: 0;
 }
 
 .cfs_custom_form label,
-.cfs_custom_form use_label_element{
+.cfs_custom_form use_label_element {
     font-size: 16px;
     color: #000000;
     font-weight: 600;
 }
 
 .cfs_custom_form .wpcf7-list-item-label,
-.cfs_custom_form input{
-	font-weight: 500;
+.cfs_custom_form input {
+    font-weight: 500;
 }
 
 
@@ -91,7 +91,7 @@
     font-size: 14px;
 }
 
-.cfs_custom_form label, .cfs_custom_form use_label_element{
+.cfs_custom_form label, .cfs_custom_form use_label_element {
     font-weight: 500;
     font-size: 16px;
 }
@@ -101,11 +101,13 @@
     display: block;
 }
 
-.cfs_custom_form .wpcf7-not-valid{
+.cfs_custom_form .wpcf7-not-valid {
     border-color: red !important;
 }
 
-.cfs_custom_form .wpcf7-not-valid-tip{display: none !important;}
+.cfs_custom_form .wpcf7-not-valid-tip {
+    display: none !important;
+}
 
 .wpcf7 form .wpcf7-response-output {
     margin: 2em 0.5em 2em;
@@ -113,8 +115,21 @@
     border-radius: 6px;
 }
 
-@media(max-width:600px){
-	.cfs_form_group.cfs_two > div {
-    width: 100%;
+.cfs_inline .wpcf7-form-control {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+@media (max-width: 600px) {
+    .cfs_form_group.cfs_two > div {
+        width: 100%;
+    }
+
+    .cfs_form_group > div {
+        margin-bottom: 20px;
+    }
+
+    .cfs_custom_form .cfs_form_group {
+        margin-bottom: 0;
+    }
 }
