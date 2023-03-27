@@ -1,0 +1,15 @@
+<div class="cfs_custom_form">
+
+Two items in a row:
+<div class="cfs_form_group cfs_two">
+<div><label> First Name [text* first placeholder "First"]</label></div>
+<div><label>Last Name [text* last placeholder "Last"]</label></div>
+</div>
+
+One item per row:
+<div class="cfs_form_group">
+<div><label>City [text* City placeholder "Location City"]</label></div>
+</div>
+
+[submit "Contact us"]
+</div>

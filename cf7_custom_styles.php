@@ -2,7 +2,7 @@
 /*
   Plugin Name: Contact Form 7 custom styles
   Description: Contact Form 7 custom styles
-  Version: 1.02
+  Version: 1.1
   License: A "Slug" license name e.g. GPL2
 */
 
