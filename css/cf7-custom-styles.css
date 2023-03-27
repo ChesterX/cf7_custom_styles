@@ -101,6 +101,12 @@
     display: block;
 }
 
+.cfs_custom_form .wpcf7-not-valid{
+    border-color: red;
+}
+
+.cfs_custom_form .wpcf7-not-valid-tip{display: none !important;}
+
 @media(max-width:600px){
 	.cfs_form_group.cfs_two > div {
     width: 100%;
