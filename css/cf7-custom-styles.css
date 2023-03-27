@@ -1,0 +1,94 @@
+.cfs_custom_form{
+	width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+	margin-top:70px;
+}
+
+.cfs_custom_form .cfs_form_group{
+	margin-bottom: 20px;
+}
+
+.cfs_form_group.two{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.cfs_form_group.two > div{
+	width: calc(50% - 10px);
+}
+
+.cfs_custom_form .wpcf7-select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+}
+
+.cfs_custom_form label,
+.cfs_custom_form use_label_element{
+	font-size: 16px;
+    color: #2c2c2c;
+}
+
+.cfs_custom_form input[type="date"],
+.cfs_custom_form input[type="time"],
+.cfs_custom_form input[type="datetime-local"],
+.cfs_custom_form input[type="week"],
+.cfs_custom_form input[type="month"],
+.cfs_custom_form input[type="text"],
+.cfs_custom_form input[type="email"],
+.cfs_custom_form input[type="url"],
+.cfs_custom_form input[type="password"],
+.cfs_custom_form input[type="search"],
+.cfs_custom_form input[type="tel"],
+.cfs_custom_form input[type="number"],
+.cfs_custom_form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+	background:#fff;
+}
+
+.cfs_custom_form .wpcf7-list-item{
+	margin-left:0;
+	margin-right: 15px;
+}
+
+.cfs_custom_form textarea{
+	max-height: 150px;
+}
+
+.wpcf7-form .cfs_custom_form input[type="submit"] {
+	width: 100%;
+    font-size: 16px;
+    max-width: 300px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding:0;
+}
+
+.cfs_custom_form label,
+.cfs_custom_form use_label_element{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.cfs_custom_form .wpcf7-list-item-label,
+.cfs_custom_form input{
+	font-weight: 500;
+}
+
+@media(max-width:600px){
+	.cfs_form_group.two > div {
+    width: 100%;
+}
+}
