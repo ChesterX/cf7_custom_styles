@@ -102,7 +102,7 @@
 }
 
 .cfs_custom_form .wpcf7-not-valid{
-    border-color: red;
+    border-color: red !important;
 }
 
 .cfs_custom_form .wpcf7-not-valid-tip{display: none !important;}
