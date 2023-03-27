@@ -1,22 +1,21 @@
 .cfs_custom_form{
 	width: 100%;
     max-width: 650px;
-    margin: 0 auto;
-	margin-top:70px;
+    margin: 70px auto 0 auto;
 }
 
 .cfs_custom_form .cfs_form_group{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
-.cfs_form_group.two{
+.cfs_form_group.cfs_two{
 	display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 	align-items: flex-end;
 }
 
-.cfs_form_group.two > div{
+.cfs_form_group.cfs_two > div{
 	width: calc(50% - 10px);
 }
 
@@ -87,8 +86,23 @@
 	font-weight: 500;
 }
 
+
+.cfs_custom_form input:not([type=button]):not([type=checkbox]):not([type=file]):not([type=hidden]):not([type=image]):not([type=radio]):not([type=reset]):not([type=submit]):not([type=color]):not([type=range]), .cfs_custom_form select, .cfs_custom_form textarea, .cfs_custom_form option {
+    font-size: 14px;
+}
+
+.cfs_custom_form label, .cfs_custom_form use_label_element{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cfs_custom_form .wpcf7-form-control-wrap {
+    margin-top: 5px;
+    display: block;
+}
+
 @media(max-width:600px){
-	.cfs_form_group.two > div {
+	.cfs_form_group.cfs_two > div {
     width: 100%;
 }
 }
