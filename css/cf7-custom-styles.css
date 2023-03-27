@@ -107,6 +107,12 @@
 
 .cfs_custom_form .wpcf7-not-valid-tip{display: none !important;}
 
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 2em;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
 @media(max-width:600px){
 	.cfs_form_group.cfs_two > div {
     width: 100%;
