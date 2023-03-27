@@ -9,7 +9,6 @@ jQuery(document).ready(function($) {
 
     let $form = $('.cfs_custom_form').parents('form.wpcf7-form');
     if($form.find('.wpcf7-response-output').length){
-        console.log('test');
         $form.find('.wpcf7-response-output').insertBefore($form.find('[type="submit"]'));
     }
 });
