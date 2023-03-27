@@ -2,7 +2,7 @@
 /*
   Plugin Name: Contact Form 7 custom styles
   Description: Contact Form 7 custom styles
-  Version: 1.0
+  Version: 1.01
   License: A "Slug" license name e.g. GPL2
 */
 
@@ -17,7 +17,7 @@ function cf7_custom_styles()
 }
 
 if (is_plugin_active('contact-form-7/wp-contact-form-7.php')) {
-    add_action('wp_enqueue_scripts', 'cf7_custom_styles');
+    add_action('wp_enqueue_scripts', 'cf7_custom_styles', 30);
     include_once('cf7-functions.php');
 }
 
