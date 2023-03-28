@@ -2,7 +2,7 @@
 /*
   Plugin Name: Contact Form 7 custom styles
   Description: Contact Form 7 custom styles
-  Version: 2.6
+  Version: 2.7
   License: A "Slug" license name e.g. GPL2
 */
 
@@ -13,6 +13,7 @@ function cf7_custom_styles()
     if (function_exists('wpcf7_enqueue_styles')) {
         wpcf7_enqueue_styles();
         wp_enqueue_style('cf7-custom-styles', plugins_url('css/cf7-custom-styles.css', __FILE__));
+        wp_enqueue_style('cf7-empty-styles', plugins_url('css/cf7-empty-styles.css', __FILE__));
         wp_enqueue_script('cf7-custom-scripts', plugins_url('js/cf7-custom-scripts.js', __FILE__), array('jquery'), '1.0', true);
     }
 }

@@ -25,12 +25,6 @@
     padding: 12px;
 }
 
-.cfs_custom_form label,
-.cfs_custom_form use_label_element {
-    font-size: 16px;
-    color: #2c2c2c;
-}
-
 .cfs_custom_form input[type="date"],
 .cfs_custom_form input[type="time"],
 .cfs_custom_form input[type="datetime-local"],
@@ -66,19 +60,12 @@
     margin-bottom: 70px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
-}
-
-.cfs_custom_form label,
-.cfs_custom_form use_label_element {
-    font-size: 16px;
-    color: #000000;
-    font-weight: 600;
+    cursor: pointer;
 }
 
 .cfs_custom_form .wpcf7-list-item-label,
@@ -89,11 +76,19 @@
 
 .cfs_custom_form input:not([type=button]):not([type=checkbox]):not([type=file]):not([type=hidden]):not([type=image]):not([type=radio]):not([type=reset]):not([type=submit]):not([type=color]):not([type=range]), .cfs_custom_form select, .cfs_custom_form textarea, .cfs_custom_form option {
     font-size: 14px;
+    width:100%;
+    display: block;
+    border: 1px solid;
+    border-radius: 6px;
 }
 
-.cfs_custom_form label, .cfs_custom_form use_label_element {
+.cfs_custom_form label,
+.cfs_custom_form use_label_element {
     font-weight: 500;
     font-size: 16px;
+    display: block;
+    width: 100%;
+    color: #000000;
 }
 
 .cfs_custom_form .wpcf7-form-control-wrap {
